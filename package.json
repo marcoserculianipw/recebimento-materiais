@@ -1,0 +1,13 @@
+{
+  "name": "recebimento-materiais",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema digital responsivo e PWA para recebimento de materiais com conferência física e integração Microsoft 365",
+  "scripts": {
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build:client": "npm --prefix client run build",
+    "build:server": "npm --prefix server run build",
+    "build": "npm run build:client && npm run build:server"
+  }
+}

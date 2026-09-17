@@ -1,0 +1,21 @@
+{
+  "short_name": "Recebimento",
+  "name": "Recebimento de Materiais",
+  "description": "Sistema digital de conferência e registro de recebimento de materiais",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0a3d62",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

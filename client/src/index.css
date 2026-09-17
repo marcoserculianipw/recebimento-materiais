@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Otimizações para touch no celular */
+.touch-target {
+  min-height: 48px;
+  touch-action: manipulation;
+}
+
+/* Suavização de scroll */
+* {
+  -webkit-overflow-scrolling: touch;
+}
