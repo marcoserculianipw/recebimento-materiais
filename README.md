@@ -1,5 +1,9 @@
 # RECEBIMENTO DE MATERIAIS
 
+> 🚀 **Acesse a Demonstração Online (Live Demo)**:  
+> 👉 **[https://recebimento-materiais.vercel.app](https://recebimento-materiais.vercel.app/)**  
+> 📱 *Abra o link pelo celular para testar a experiência PWA e a captura de fotos com a câmera traseira.*
+
 Sistema web responsivo e preparado para **PWA**, corporativo, limpo e direto, desenvolvido para digitalizar a entrada e conferência física de materiais em docas e portarias com foco prioritário na usabilidade pelo **celular**.
 
 Inspirado na identidade visual corporativa da **Intercarta** (tons de azul corporativo, tipografia moderna e áreas de toque confortáveis).
