@@ -45,7 +45,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 + NOVO RECEBIMENTO
               </span>
               <span className="block text-xs text-blue-200 font-normal">
-                Iniciar conferência e foto de NF
+                Registrar entrada e checklist de doca
               </span>
             </div>
           </div>
@@ -69,7 +69,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 📋 RECEBIMENTOS
               </span>
               <span className="block text-xs text-slate-500 font-normal">
-                Consultar histórico e detalhes salvos
+                Histórico de entradas e notas fiscais
               </span>
             </div>
           </div>
@@ -83,10 +83,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       <div className="border-t border-slate-200/70 pt-4 pb-2 text-center text-xs text-slate-500 flex flex-col items-center space-y-1">
         <div className="inline-flex items-center space-x-1 text-slate-600 font-medium">
           <ShieldCheck className="w-4 h-4 text-[#0a3d62]" />
-          <span>Usuário Conectado: <strong>{user.name}</strong></span>
+          <span>Operador ativo: <strong>{user.name}</strong> • Matrícula 4082</span>
         </div>
         <span className="text-[11px] text-slate-400">
-          Versão 1.0 • Pronto para Microsoft 365 & PWA
+          Intercarta Embalagens • Logística e Suprimentos • v1.0.4
         </span>
       </div>
     </div>

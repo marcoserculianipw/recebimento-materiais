@@ -174,7 +174,7 @@ export const NewReceivingPage: React.FC<NewReceivingPageProps> = ({
               Recebimento registrado com sucesso!
             </h2>
             <p className="text-sm text-slate-500 mt-1">
-              Todos os dados, fotos e resultados foram gravados no sistema.
+              Registro de entrada física concluído e integrado.
             </p>
           </div>
 
@@ -601,7 +601,7 @@ export const NewReceivingPage: React.FC<NewReceivingPageProps> = ({
               {/* Componente Câmera dedicado para NF */}
               <CameraCapture
                 label="Nota Fiscal (DANFE)"
-                buttonText="📷 TIRAR FOTO DA NF"
+                buttonText="Tirar Foto da Nota Fiscal"
                 currentPhoto={formData.invoicePhoto}
                 onPhotoConfirmed={handleInvoicePhotoConfirmed}
                 onRemovePhoto={handleRemoveInvoicePhoto}

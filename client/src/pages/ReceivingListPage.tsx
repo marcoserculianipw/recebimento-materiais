@@ -64,7 +64,7 @@ export const ReceivingListPage: React.FC<ReceivingListPageProps> = ({
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="🔎 Buscar recebimento por NF, fornecedor ou material..."
+              placeholder="Buscar por NF, fornecedor ou material..."
               className="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-300 bg-slate-50 text-slate-900 text-sm focus:bg-white focus:ring-2 focus:ring-[#0a3d62] focus:border-[#0a3d62] outline-none touch-target"
             />
             <Search className="w-5 h-5 text-slate-400 absolute left-3.5 top-3.5 pointer-events-none" />

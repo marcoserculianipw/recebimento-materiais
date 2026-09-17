@@ -119,7 +119,7 @@ export const ChecklistItemRow: React.FC<ChecklistItemRowProps> = ({
             </span>
             <CameraCapture
               label={`Ocorrência: ${item.title}`}
-              buttonText="📷 TIRAR FOTO DA OCORRÊNCIA"
+              buttonText="Tirar Foto da Ocorrência"
               currentPhoto={item.photoUrl}
               onPhotoConfirmed={handlePhotoConfirmed}
               onRemovePhoto={handleRemovePhoto}
